@@ -22,3 +22,5 @@
 
 set completion-ignore-case on
 set bell-style none
+
+set enable-bracketed-paste on
