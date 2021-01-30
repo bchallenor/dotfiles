@@ -25,11 +25,19 @@
 PROMPT_COMMAND=prompt_command
 
 function prompt_command() {
+  local exit="$?"
+
+  local RED="\[\e[31m\]"
   local GRN="\[\e[32m\]"
   local CYN="\[\e[36m\]"
   local RST="\[\e[0m\]"
 
   PS1=""
+
+  if [[ "$exit" != 0 ]]; then
+    PS1+="$RED↳$RST $exit"
+    PS1+="\n"
+  fi
 
   PS1+="$GRN\u@\h$RST"
   PS1+=" "
