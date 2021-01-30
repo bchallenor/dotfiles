@@ -16,3 +16,9 @@ font:
   size: 22.0
   normal:
     family: Iosevka
+
+key_bindings:
+  - { mods: Control|Shift, key: C, action: ReceiveChar }
+  - { mods: Control|Shift, key: V, action: ReceiveChar }
+  - { mods: Control|Alt,   key: C, action: Copy        }
+  - { mods: Control|Alt,   key: V, action: Paste       }
