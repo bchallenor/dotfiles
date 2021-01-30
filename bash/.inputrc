@@ -21,3 +21,4 @@
 # SOFTWARE.
 
 set completion-ignore-case on
+set bell-style none
