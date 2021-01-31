@@ -40,6 +40,10 @@
   :config
   (load-theme 'solarized-dark t))
 
+(setq line-number-mode 1
+      column-number-mode 1
+      column-number-indicator-zero-based nil)
+
 (setq inhibit-startup-screen t)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
