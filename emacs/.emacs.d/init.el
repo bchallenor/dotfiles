@@ -15,3 +15,7 @@
 
 (let ((el (locate-user-emacs-file "straight/repos/straight.el/bootstrap.el")))
   (load el nil t t))
+
+(straight-use-package 'use-package)
+(setq use-package-compute-statistics t
+      use-package-expand-minimally nil)
