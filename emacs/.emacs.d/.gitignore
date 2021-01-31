@@ -2,6 +2,8 @@
 
 !/.gitignore
 
+!/bootstrap.sh
+
 !/init.el
 
 !/straight/
