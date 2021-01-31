@@ -3,3 +3,7 @@
 !/.gitignore
 
 !/init.el
+
+!/straight/
+/straight/*
+!/straight/versions/
