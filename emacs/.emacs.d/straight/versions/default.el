@@ -1,0 +1,12 @@
+(("dash.el" . "7b2584c3715cb29dd147d23de1a65b89ade09884")
+ ("emacs-bind-map" . "bf4181e3a41463684adfffc6c5c305b30480e30f")
+ ("emacsmirror-mirror" . "77ca06a6d6d668f6c09faee7179d75c4a8111c6b")
+ ("evil" . "cc9d6886b418389752a0591b9fcb270e83234cf9")
+ ("evil-escape" . "f4e9116bfbaac8c9d210c17ad488e0982291245f")
+ ("gnu-elpa-mirror" . "5f07df669edbc0db7695545f6cc2514575d88cb0")
+ ("goto-chg" . "2af612153bc9f5bed135d25abe62f46ddaa9027f")
+ ("melpa" . "61f6ede846bbf5e364c626524c567d4e3e99b906")
+ ("solarized-emacs" . "98ece6811b30c8ef2ece670b47558a9159f973f1")
+ ("straight.el" . "2d407bccd9378f1d5218f8ba2ae85c6be73fbaf1")
+ ("use-package" . "365c73d2618dd0040a32c2601c5456ab5495b812"))
+:beta

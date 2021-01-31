@@ -1,0 +1,13 @@
+/*
+
+!/.gitignore
+
+!/bootstrap.sh
+
+!/init.el
+
+!/init/
+
+!/straight/
+/straight/*
+!/straight/versions/
