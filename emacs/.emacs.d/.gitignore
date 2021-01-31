@@ -6,6 +6,8 @@
 
 !/init.el
 
+!/init/
+
 !/straight/
 /straight/*
 !/straight/versions/

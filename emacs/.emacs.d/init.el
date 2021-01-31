@@ -19,3 +19,6 @@
 (straight-use-package 'use-package)
 (setq use-package-compute-statistics t
       use-package-expand-minimally nil)
+
+(dolist (el (directory-files-recursively (locate-user-emacs-file "init") "\\.el\\'" nil nil t))
+  (load el nil t t))
